@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.header{
+    background-color: rgb(247, 247, 250);
+    width: 100%;
+    height: 64px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+}
+.header_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.register{
+    font-family: Vazirmatn;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3E8DF7;
+}
+.azki_icon{
+    width: 70px;
+    height: 17px;
+}
+.introduction{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.azki{
+    font-family: Vazirmatn;
+    font-weight: 900;
+    font-size: 32px;
+    color: #555559;
+    width: 70%;
+    text-align: center;
+}
+.insurance{
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 28px;
+}
+.get_insurance{
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 16px;
+}
+.car{
+    width: 104px;
+    height: 94px;
+    border: 1px solid #EAEAEA;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.car_img{
+    width: 40.5px;
+    height: 40.5px;
+}
+.third_party{
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 14px;
+    color: #555559;
+}
+.chekout{
+    background-color: #EBF3E9;
+    border-radius: 24px;
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    top:260px
+}
+.sale{
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3C8825;
+}
+.line{
+    width: 90%;
+    height: 2px;
+    border: 1px solid rgba(93, 160, 251, 1)
+    background-color: #5DA0FB;
+    background: rgba(93, 160, 251, 1);
+    margin-top: 16px;
+}
+.insurance_types{
+    width: 85%;
+    height: 208px;
+    margin: 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.elevator{
+    background-color: #EAEAEA;
+    border-radius: 16px;
+    border: 1px;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+}
+.elevator_1{
+    margin-right: 4px;
+}
+.elevator_2{
+    margin-left: 4px;
+}
+.man{
+    width: 40px;
+    height: 40px;
+}
+.elevator_text{
+    color: #555559;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 16px;
+}
+.city_img{
+    margin-top: 33px;
+    margin-bottom: 22px;
+    width: 100%;
+}
+.out_circle{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center_circle{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.car_icon{
+    width: 24px;
+    height: 24px;
+}
+.car_text{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+}
+.comment_icon{
+    width: 56px;
+    height: 56px;
+    background-color: #3E8DF7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 215px;
+}
+.payment{
+    width: 100%;
+    height: 640px;
+    background-color: #F9F9F9;
+    margin-top: 48px;
+
+}
+.damage{
+    width: 90%;
+    height: 400px;
+    margin: 48px 16px 0 16px;
+}
+.payment_text{
+    color: #2A2B2F;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.payment_explanation{
+    color: #2A2B2F;
+    font-family: Vazirmatn;
+    font-weight: 400;
+    font-size: 14px;
+    text-align:right;
+    margin:16px 0;
+}
+.payment_method{
+    margin: 0 49px;
+    display: flex;
+    flex-direction: column;
+}
+.request{
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 16px;
+}
+.number{
+    color: #F5BE41;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 18px;
+}
+.request_text{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 16px;
+}
+.request_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.register_request{
+    background-color: #3E8DF7;
+    border-radius: 8px;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 83.5px 0 83.5px;
+}
+.register_box{
+    color: #3E8DF7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.register_text{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 16px;
+}
+.expand{
+    margin: 8px 8px 8px 16px;
+}
+.accident{
+    margin: 60px 26px 0 26px;
+}
+.mention{
+    width: 85%;
+    height: 396px;
+    border-radius: 24px;
+    border: 1px solid #000000;
+}
+.insurance_mention{
+    border-radius: 23px 23px 0 0;
+    background-color: #F5BE41;
+    width: 100%;
+    height: 124px;
+}
+.mention_container{
+    margin: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+}
+.Vector1{
+    position: absolute;
+    bottom: 8px ;
+    left: 250px;
+    z-index: 10;
+}
+.Vector2{
+    position: absolute;
+    bottom: 8px;
+    left: 280px;
+    z-index: 10;
+}
+.Vector3{
+    position: absolute;
+    bottom: 8px;
+    right: 250px;
+}
+.Vector4 {
+    position: absolute;
+    bottom: 8px;
+    right: 280px;
+}
+.mention_text{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 24px 31px;
+    text-align: center;
+}
+.mention_detail{
+    margin: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.repeate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+
+}
+.mention_insurance{
+    border: 1px solid #BDBDBF;
+    border-radius: 8px;
+    background-color:#FFFFFF ;
+    width: 146px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.detail_text{
+    color: #707174;
+    font-family: Vazirmatn;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 2px;
+    
+}
+.arrow{
+    margin:8px 30px 8px 0px;
+}
+.write_in{
+    width: 105px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3E8DF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.write_in_text{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 14px;
+}
+.service{
+    width: 256px;
+    height: 256px;
+    margin:80px 36px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service_first_row{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.compare{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #9D9D9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compare_box{
+    width: 66px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.compare_text{
+    color: #2A2B2F;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+.service_second_row {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lorem_content{
+    width: 85%;
+    height: 429px;
+    margin-top: 147px;
+    position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+.man_img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    bottom: 350px;
+    left: 85px;
+}
+.life_insurance{
+    width: 185px;
+    height: 232px;
+    margin-top: 104px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.life_insurance_header{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.life_insurance_content{
+    color: #555559;
+    font-family: Vazirmatn;
+    font-weight: 400;
+    font-size: 14px;
+    text-align:justify;
+    margin-bottom: 8px;
+    line-height: 23.6px;
+}
+.more_buttom{
+    width: 80px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: #3E8DF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;   
+}
+.more{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 14px;
+}
+.next{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.next_icon{
+    width: 18px;
+    height: 10px;
+    color: #2A2B2F;
+}
+.circle_box{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 90px;
+}
+.blue_circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #3E8DF7;
+}
+.white_circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #EAEAEA;
+    margin-left: 4px;
+}
+.azki_introduction{
+    width: 100%;
+    height: 208px;
+    background-color: #3E8DF7;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.azki_introduction_content{
+    width: 70%;
+    height:70%;
+    margin: 40px 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.azki_header{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+.azki_explain{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 23.6px;
+    width: 260px;
+    text-align: center;
+}
+.total_explain{
+    width: 100%;
+    height: 677px;
+    background: linear-gradient(180.22deg, #F9F4E7 0.2%, #E6F6F9 99.83%);
+}
+.detail{
+    width: 88%;
+    height: 603px;
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.azki_services{
+    width: 100%;
+    height: 248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    width: 129px;
+    height: 248px;
+}
+.access_header{
+    color: #3E8DF7;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+.access_detail{
+    color: #2A2B2F;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    line-height: 20.16px;
+}
+.azki_com{
+    display: flex;
+    flex-direction: column;
+}
+.azki_com_content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    
+}
+.azki_com_logo{
+    width: 73px;
+    height: 17px;
+    margin-left:  277px;
+    margin-bottom: 12px;
+}
+.azki_com_explain{
+    color: #2A2B2F;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    line-height: 20.16px;
+    width: 350px;
+    margin-right: 0px;
+}
+.azki_com_address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.azki_com_valley{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.valley_content{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+}
+.valley_logo{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.phone_number{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+}
+.phone_content{
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    margin-left: 8px;
+}
+.phone_logo{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+.email_address {
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+}
+.email_content {
+    color: #000000;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    margin-left: 8px;
+}
+.email_logo{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.azki_com_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20.5px;
+}
+.samandehi{
+    width: 80px;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rights{
+    width: 100%;
+    height: 136px;
+    background: linear-gradient(90deg, #2151CC -2.05%, #739FF2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rights_box{
+    width: 206px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+}
+.rights_content{
+    color: #FFFFFF;
+    font-family: Vazirmatn;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.rights_icons{
+    margin: 16px 27px 0 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons_img{
+    width: 19.2px;
+    height: 19.2px;
+}
+
+
